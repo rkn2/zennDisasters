@@ -1,0 +1,964 @@
+
+--- Nashville_Tornado_DataInput_Final_110725.xlsx ---
+Columns:
+  S.No.
+  completed_by
+  fully completed? (fulcrum checked?)
+  how was it found?
+  historic registered building?
+  tornado_name
+  tornado_year
+  town
+  overall_photos_link
+  tornado_EF
+  tornado_start_lat
+  tornado_end_lat
+  tornado_start_long
+  tornado_end_long
+  latitude
+  longitude
+  complete_address
+  building_name_listing
+  building_name_current
+  archetype
+  located_in_historic_district
+  occupany_u
+  number_stories
+  year_built_u
+  building_area_m2
+  building_urban_setting
+  building_position_on_street
+  buidling_height_m
+  first_floor_elevation_m
+  front_elevation_orientation
+  first_floor_ceiling_m
+  wall_length_side
+  wall_length_front
+  wall_thickness
+  roof_shape_u
+  roof_slope_u
+  construction_type_u
+  construction_type_u_unc
+  mwfrs_u_wall
+  mwfrs_u_roof
+  mwfrs_u_moment_frame
+  mwfrs_u_unc
+  masonry_leaves
+  masonry_leaves_unc
+  structural_wall_system_u
+  foundation_type_u
+  foundation_type_u_unc
+  wall_anchorage_type_u
+  wall_anchorage_type_u_unc
+  wall_substrate_u
+  wall_substrate_u_unc
+  wall_cladding_u
+  wall_cladding_u_unc
+  soffit_type_u
+  soffit_present_u
+  wall_fenesteration_per_front
+  wall_fenesteration_per_back
+  wall_fenesteration_per_right
+  wall_fenesteration_per_left
+  wall_fenestration_per_n
+  wall_fenestration_per_s
+  wall_fenestration_per_e
+  wall_fenestration_per_w
+  wall_fenestration_per_w.1
+  wall_fenesteration_protection_front
+  wall_fenesteration_protection_front_unc
+  wall_fenesteration_protection_back
+  wall_fenesteration_protection_right
+  wall_fenesteration_protection_left
+  fenestration_protection_type_front
+  fenestration_protection_type_back
+  fenestration_protection_type_right
+  fenestration_protection_type_left
+  large_door_present_front
+  large_door_present_back
+  large_door_present_right
+  large_door_present_left
+  door_present_n
+  door_present_s
+  door_present_e
+  door_present_w
+  roof_system_u
+  roof_system_u_unc
+  r2wall_attachment_u
+  roof_substrate_type_u
+  roof_substrate_type_u_unc
+  roof_cover_u
+  roof_cover_u_unc
+  overhang_length_u
+  parapet_height_m
+  retrofit_year_u
+  retrofit_present_u
+  retrofit_type_u
+  retrofit_type_unc_u
+  hazards_present_u
+  status_u
+  wind_damage_rating_u
+  damage_indicator_u
+  degree_of_damage_u
+  wind_damage_details_u
+  roof_structure_damage_u
+  roof_structure_damage_u_per
+  roof_susbtrate_damage_u
+  roof_substrate_damage_per
+  foundation_failure_u
+  foundation_failure_per_u
+  wall_structure_damage_per_front
+  wall_structure_damage_per_back
+  wall_structure_damage_per_left
+  wall_structure_damage_per_right
+  wall_structure_damage_u
+  wall_structure_damage_n
+  wall_structure_damage_s
+  wall_structure_damage_e
+  wall_structure_damage_w
+  wall_substrate_damage_per_front
+  wall_substrate_damage_per_back
+  wall_substrate_damage_per_right
+  wall_substrate_damage_per_left
+  wall_substrate_damage_n
+  wall_substrate_damage_s
+  wall_substrate_damage_e
+  wall_substrate_damage_w
+  wall_substrate_damage_u
+  wall_cladding_damage_per_front
+  wall_cladding_damage_per_back
+  wall_cladding_damage_per_right
+  wall_cladding_damage_per_left
+  wall_cladding_damage_n
+  wall_cladding_damage_s
+  wall_cladding_damage_e
+  wall_cladding_damage_w
+  damaged_fenesteration_per_front
+  damaged_fenesteration_per_back
+  damaged_fenesteration_per_right
+  damaged_fenesteration_per_left
+  wall_fenestration_damage_per_n
+  wall_fenestration_damage_per_s
+  wall_fenestration_damage_per_e
+  wall_fenestration_damage_per_w
+  soffit_damage_per_u
+  fascia_damage_per_u
+  piles_damage_u
+  foundation_damage_cause_u
+  foundation_damage_u
+  foundation_damage_u_per
+  risk_category_16
+  building_low_rise
+  national_register_listing_year
+  existed_during_tornado
+  buidling_use_before_tornado
+  buidling_use_after_tornado
+  buidling_use_plan_after_tornado
+  demolishing_year
+  single_unit
+  multiple_unit
+  world_heritage_property
+  hague_convention
+  sub_national_heritage _list
+  iucn_protected_area
+  property_of_local_significance
+  const_material_h_stone
+  const_material_h_brick
+  const_material_h_wood
+  const_material_h_mud
+  const_material_h_rf_masonry
+  const_material_h_rglr_stone
+  const_material_h_rf_conc
+  const_material_h_ir_stone
+  const_material_h_othr
+  const_material_v_stone
+  const_material_v_brick
+  const_material_v_wood
+  const_material_v_mud
+  const_material_v_rf_masonry
+  const_material_v_rglr_stone
+  const_material_v_rf_conc
+  const_material_v_ir_stone
+  const_material_v_othr
+  prop_agricultural 
+  prop_cave
+  prop_culture _entertainment_facility
+  prop_forest
+  prop_industrial_facility
+  prop_lake
+  prop_military
+  prop_nature
+  prop_religious
+  prop_rock formation
+  prop_sports_facility
+  prop_unilities_facility
+  prop_archaeological
+  prop_commemorative structure or landmark
+  prop_ecosystem
+  prop_habitat
+  prop_infrastructure
+  prop_law / government facility
+  prop_mine
+  prop_park / garden
+  prop_residential facility
+  prop_scenic area
+  prop_transportation facility
+  prop_volcano
+  prop_battlefield
+  prop_commercial / exchange facility
+  prop_educational facility
+  prop_health / welfare facility
+  prop_island(s)
+  prop_marine zone
+  prop_mountain
+  parking / storage facility
+  river catchment system
+  sea
+  underground facility
+  zoological park
+  prop_val_evidential
+  prop_val_historical
+  prop_val_aesthetic
+  prop_val_communal
+  owner_individual
+  owner_business
+  owner_government
+  owner_ngo
+  owner_religious 
+  owner_unknown
+  buidling_existed_5_yrs_before_tornado
+  buidling_existed_3_yrs_before_tornado
+  buidling_existed_1_yrs_before_tornado
+  building_existed_during_tornado
+  building_in_use_during_tornado
+  building_use_during_tornado
+  damage_status
+  building_demolished_1_yrs_after_tornado
+  building_demolished_3_yrs_after_tornado
+  building_demolished_5_yrs_after_tornado
+  notes
+
+First row:
+{'S.No.': nan, 'completed_by': 'gianna', 'fully completed? (fulcrum checked?)': 'Y', 'how was it found?': 'NRHP', 'historic registered building?': 'yes', 'tornado_name': 'March 3, 2020 Tornado Outbreak', 'tornado_year': 2020, 'town': 'Nashville', 'overall_photos_link': '908 Monroe St TN 37208 US', 'tornado_EF': 2, 'tornado_start_lat': 36.1717, 'tornado_end_lat': 36.1525, 'tornado_start_long': -86.9526, 'tornado_end_long': -85.8904, 'latitude': 36.1748559, 'longitude': -86.79533014, 'complete_address': '908 Monroe St Nashville TN 37208 US', 'building_name_listing': 'Third Baptist Church', 'building_name_current': 'Hopewell Missionary Baptist Church', 'archetype': 13, 'located_in_historic_district': 'no', 'occupany_u': 'religious', 'number_stories': 1, 'year_built_u': 1902, 'building_area_m2': 359.25, 'building_urban_setting': 'isolated', 'building_position_on_street': 'right_on_street', 'buidling_height_m': 8.0, 'first_floor_elevation_m': 0.5, 'front_elevation_orientation': 's', 'first_floor_ceiling_m': 5, 'wall_length_side': 21.0, 'wall_length_front': 32.0, 'wall_thickness': 0.2, 'roof_shape_u': 'hip', 'roof_slope_u': 30, 'construction_type_u': 'masonry_un', 'construction_type_u_unc': 3, 'mwfrs_u_wall': 'wall_diaphragm_masonry', 'mwfrs_u_roof': 'roof_diaphragm_wood', 'mwfrs_u_moment_frame': 'no', 'mwfrs_u_unc': 3, 'masonry_leaves': 'double_leaf', 'masonry_leaves_unc': 3, 'structural_wall_system_u': 'masonry_block_unreinforced', 'foundation_type_u': 'stone', 'foundation_type_u_unc': 3, 'wall_anchorage_type_u': 'un', 'wall_anchorage_type_u_unc': 1, 'wall_substrate_u': 'not_applicable', 'wall_substrate_u_unc': 3, 'wall_cladding_u': 'brick', 'wall_cladding_u_unc': 3, 'soffit_type_u': 'wood', 'soffit_present_u': 'yes', 'wall_fenesteration_per_front': 40, 'wall_fenesteration_per_back': 40, 'wall_fenesteration_per_right': 40, 'wall_fenesteration_per_left': 40, 'wall_fenestration_per_n': 40, 'wall_fenestration_per_s': 40, 'wall_fenestration_per_e': 40, 'wall_fenestration_per_w': 40, 'wall_fenestration_per_w.1': nan, 'wall_fenesteration_protection_front': 'no', 'wall_fenesteration_protection_front_unc': nan, 'wall_fenesteration_protection_back': 'no', 'wall_fenesteration_protection_right': 'no', 'wall_fenesteration_protection_left': 'no', 'fenestration_protection_type_front': 'not_applicable', 'fenestration_protection_type_back': 'not_applicable', 'fenestration_protection_type_right': 'not_applicable', 'fenestration_protection_type_left': 'not_applicable', 'large_door_present_front': 'no', 'large_door_present_back': 'no', 'large_door_present_right': 'no', 'large_door_present_left': 'no', 'door_present_n': 'no', 'door_present_s': 'no', 'door_present_e': 'no', 'door_present_w': 'no', 'roof_system_u': 'wooden_un', 'roof_system_u_unc': 3, 'r2wall_attachment_u': 'un', 'roof_substrate_type_u': 'dimensional_lumber', 'roof_substrate_type_u_unc': 1, 'roof_cover_u': 'asphalt', 'roof_cover_u_unc': 3, 'overhang_length_u': 0.2, 'parapet_height_m': 0.0, 'retrofit_year_u': 2021, 'retrofit_present_u': 'yes', 'retrofit_type_u': 'structural_restoration', 'retrofit_type_unc_u': 3, 'hazards_present_u': 'wind', 'status_u': 'severe', 'wind_damage_rating_u': 3, 'damage_indicator_u': 3, 'degree_of_damage_u': 3, 'wind_damage_details_u': 'parts of structure destroyed, all fenestration destroyed', 'roof_structure_damage_u': 3, 'roof_structure_damage_u_per': 40, 'roof_susbtrate_damage_u': 3, 'roof_substrate_damage_per': 20, 'foundation_failure_u': 0, 'foundation_failure_per_u': 0, 'wall_structure_damage_per_front': 20, 'wall_structure_damage_per_back': 10, 'wall_structure_damage_per_left': 10, 'wall_structure_damage_per_right': 50, 'wall_structure_damage_u': 3, 'wall_structure_damage_n': 0, 'wall_structure_damage_s': 50, 'wall_structure_damage_e': 20, 'wall_structure_damage_w': 20, 'wall_substrate_damage_per_front': 20, 'wall_substrate_damage_per_back': 0, 'wall_substrate_damage_per_right': 50, 'wall_substrate_damage_per_left': 20, 'wall_substrate_damage_n': 0, 'wall_substrate_damage_s': 20, 'wall_substrate_damage_e': 50, 'wall_substrate_damage_w': 20, 'wall_substrate_damage_u': 1, 'wall_cladding_damage_per_front': 5, 'wall_cladding_damage_per_back': 30, 'wall_cladding_damage_per_right': 50, 'wall_cladding_damage_per_left': 7, 'wall_cladding_damage_n': 30, 'wall_cladding_damage_s': 5, 'wall_cladding_damage_e': 50, 'wall_cladding_damage_w': 7, 'damaged_fenesteration_per_front': 80, 'damaged_fenesteration_per_back': 50, 'damaged_fenesteration_per_right': 70, 'damaged_fenesteration_per_left': 50, 'wall_fenestration_damage_per_n': 50, 'wall_fenestration_damage_per_s': 70, 'wall_fenestration_damage_per_e': 50, 'wall_fenestration_damage_per_w': 80, 'soffit_damage_per_u': 80, 'fascia_damage_per_u': 80, 'piles_damage_u': 'not_applicable', 'foundation_damage_cause_u': 'not_applicable', 'foundation_damage_u': 0, 'foundation_damage_u_per': 0, 'risk_category_16': 2, 'building_low_rise': 'yes', 'national_register_listing_year': 1979, 'existed_during_tornado': 'yes', 'buidling_use_before_tornado': 'religious', 'buidling_use_after_tornado': 'religious', 'buidling_use_plan_after_tornado': 'religious', 'demolishing_year': 'not_applicable', 'single_unit': 1, 'multiple_unit': 0, 'world_heritage_property': 0, 'hague_convention': 0, 'sub_national_heritage _list': 0, 'iucn_protected_area': 0, 'property_of_local_significance': 1, 'const_material_h_stone': 1, 'const_material_h_brick': 0, 'const_material_h_wood': 1, 'const_material_h_mud': 0, 'const_material_h_rf_masonry': 0, 'const_material_h_rglr_stone': 0, 'const_material_h_rf_conc': 0, 'const_material_h_ir_stone': 1, 'const_material_h_othr': 0, 'const_material_v_stone': 1, 'const_material_v_brick': 1, 'const_material_v_wood': 0, 'const_material_v_mud': 0, 'const_material_v_rf_masonry': 0, 'const_material_v_rglr_stone': 0, 'const_material_v_rf_conc': 0, 'const_material_v_ir_stone': 0, 'const_material_v_othr': 0, 'prop_agricultural ': 0, 'prop_cave': 0, 'prop_culture _entertainment_facility': 0, 'prop_forest': 0, 'prop_industrial_facility': 0, 'prop_lake': 0, 'prop_military': 0, 'prop_nature': 0, 'prop_religious': 1, 'prop_rock formation': 0, 'prop_sports_facility': 0, 'prop_unilities_facility': 0, 'prop_archaeological': 0, 'prop_commemorative structure or landmark': 0, 'prop_ecosystem': 0, 'prop_habitat': 0, 'prop_infrastructure': 0, 'prop_law / government facility': 0, 'prop_mine': 0, 'prop_park / garden': 0, 'prop_residential facility': 0, 'prop_scenic area': 0, 'prop_transportation facility': 0, 'prop_volcano': 0, 'prop_battlefield': 0, 'prop_commercial / exchange facility': 0, 'prop_educational facility': 0, 'prop_health / welfare facility': 0, 'prop_island(s)': 0, 'prop_marine zone': 0, 'prop_mountain': 0, 'parking / storage facility': 0, 'river catchment system': 0, 'sea': 0, 'underground facility': 0, 'zoological park': 0, 'prop_val_evidential': 'exceptional', 'prop_val_historical': 'exceptional', 'prop_val_aesthetic': 'exceptional', 'prop_val_communal': 'exceptional', 'owner_individual': 0, 'owner_business': 0, 'owner_government': 0, 'owner_ngo': 0, 'owner_religious ': 1, 'owner_unknown': 0, 'buidling_existed_5_yrs_before_tornado': 'yes', 'buidling_existed_3_yrs_before_tornado': 'yes', 'buidling_existed_1_yrs_before_tornado': 'yes', 'building_existed_during_tornado': 'yes', 'building_in_use_during_tornado': 'yes', 'building_use_during_tornado': 'religious', 'damage_status': 'severe', 'building_demolished_1_yrs_after_tornado': 'no', 'building_demolished_3_yrs_after_tornado': 'no', 'building_demolished_5_yrs_after_tornado': 'no', 'notes': 'Used T13 becuase it is a church. Available imagery captured one side of the building, which is covered with a tarp. We infer that the wall on that side has collapsed.'}
+
+--- updatedData/Revised_QuadState_Tornado_DataInput_pub - Copy_120525.csv ---
+Columns:
+  NRHP_ref_number
+  town
+  tornado_EF
+  tornado_start_lat
+  tornado_end_lat
+  tornado_start_long
+  tornado_end_long
+  latitude
+  longitude
+  complete_address
+  building_name_listing
+  building_name_current
+  archetype
+  located_in_historic_district
+  occupany_u
+  number_stories
+  year_built_u
+  building_area_m2
+  building_urban_setting
+  building_position_on_street
+  buidling_height_m
+  first_floor_elevation_m
+  front_elevation_orientation
+  wall_length_side
+  wall_length_front
+  wall_thickness
+  roof_shape_u
+  roof_slope_u
+  construction_type_u
+  construction_type_u_unc
+  mwfrs_u_wall
+  mwfrs_u_wall_unc
+  mwfrs_u_roof
+  mwfrs_u_roof_unc
+  mwfrs_u_moment_frame
+  mwfrs_u_moment_frame_unc
+  masonry_leaves
+  masonry_leaves_unc
+  structural_wall_system_u
+  foundation_type_u
+  foundation_type_u_unc
+  wall_anchorage_type_u
+  wall_anchorage_type_u_unc
+  wall_substrate_u
+  wall_substrate_u_unc
+  wall_cladding_u
+  wall_cladding_u_unc
+  soffit_type_u
+  soffit_present_u
+  wall_fenesteration_per_front
+  wall_fenesteration_per_back
+  wall_fenesteration_per_right
+  wall_fenesteration_per_left
+  wall_fenestration_per_n
+  wall_fenestration_per_s
+  wall_fenestration_per_e
+  wall_fenestration_per_w
+  wall_fenesteration_protection_front
+  wall_fenesteration_protection_front_unc
+  wall_fenesteration_protection_back
+  wall_fenesteration_protection_back_unc
+  wall_fenesteration_protection_right
+  wall_fenesteration_protection_left
+  fenestration_protection_type_front
+  fenestration_protection_type_back
+  fenestration_protection_type_right
+  fenestration_protection_type_left
+  large_door_present_front
+  large_door_present_back
+  large_door_present_right
+  large_door_present_left
+  door_present_n
+  door_present_s
+  door_present_e
+  door_present_w
+  roof_system_u
+  roof_system_u_unc
+  r2wall_attachment_u
+  roof_substrate_type_u
+  roof_substrate_type_u_unc
+  roof_cover_u
+  roof_cover_u_unc
+  overhang_length_u
+  parapet_height_m
+  retrofit_year_u
+  retrofit_present_u
+  retrofit_type_u
+  retrofit_type_unc_u
+  hazards_present_u
+  status_u
+  wind_damage_rating_u
+  damage_indicator_u
+  degree_of_damage_u
+  wind_damage_details_u
+  roof_structure_damage_u
+  roof_structure_damage_u_per
+  roof_substrate_damage_u
+  roof_substrate_damage_per
+  foundation_failure_u
+  foundation_failure_per_u
+  wall_structure_damage_per_front
+  wall_structure_damage_per_back
+  wall_structure_damage_per_left
+  wall_structure_damage_per_right
+  wall_structure_damage_u
+  wall_structure_damage_n
+  wall_structure_damage_s
+  wall_structure_damage_e
+  wall_structure_damage_w
+  wall_substrate_damage_per_front
+  wall_substrate_damage_per_back
+  wall_substrate_damage_per_right
+  wall_substrate_damage_per_left
+  wall_substrate_damage_n
+  wall_substrate_damage_s
+  wall_substrate_damage_e
+  wall_substrate_damage_w
+  wall_substrate_damage_u
+  wall_cladding_damage_per_front
+  wall_cladding_damage_per_back
+  wall_cladding_damage_per_right
+  wall_cladding_damage_per_left
+  wall_cladding_damage_n
+  wall_cladding_damage_s
+  wall_cladding_damage_e
+  wall_cladding_damage_w
+  damaged_fenesteration_per_front
+  damaged_fenesteration_per_back
+  damaged_fenesteration_per_right
+  damaged_fenesteration_per_left
+  wall_fenestration_damage_per_n
+  wall_fenestration_damage_per_s
+  wall_fenestration_damage_per_e
+  wall_fenestration_damage_per_w
+  soffit_damage_per_u
+  fascia_damage_per_u
+  piles_damage_u
+  foundation_damage_cause_u
+  foundation_damage_u
+  foundation_damage_u_per
+  risk_category_16
+  building_low_rise
+  overall_photos_front
+  overall_photos_back
+  overall_photos_left
+  overall_photos_right
+  detailed_photos_front
+  detailed_photos_back
+  detailed_photos_left
+  detailed_photos_right
+  elevations_assessed_front_o
+  elevations_assessed_back_o
+  elevations_assessed_left_o
+  elevations_assessed_right_o
+  address_suite
+  address_locality
+  address_postal_code
+  address_country
+  occupancy_o
+  year_built_o
+  understory_pct_of_building_footprint
+  roof_shape_o
+  roof_slope_o
+  construction_type_o
+  mwfrs_o
+  structural_wall_system_o
+  foundation_type_o
+  wall_anchorage_type_o
+  wall_substrate_o
+  wall_cladding_o
+  soffit_type_o
+  wall_fenesteration_protection_right_unc
+  wall_fenesteration_protection_left_unc
+  fenestration_protection_type_unc
+  fenesteration_ratio_o
+  large_door_opening_type_
+  opening_type
+  roof_system_o
+  r2wall_attachment_o
+  r2wall_attachment_type_unc
+  roof_substrate_type_o
+  roof_cover_o
+  overhang_length_o
+  secondary_water_barrier_o
+  secondary_water_barrier_u
+  retrofit_type_1_o
+  retrofit_type_1_u
+  retrofit_type_2_o
+  reotrofit_2_u
+  retrofit_year_o
+  hazards_present_o
+  status_o
+  wind_damage_rating_o
+  overall_damage_notes_o
+  surge_damage_rating_o
+  surge_damage_rating_u
+  rainwater_ingress_damage_rating_o
+  rainwater_ingress_damage_rating_u
+  damage_indicator_o
+  degree_of_damage_o
+  wind_damage_details_o
+  roof_structure_damage_o
+  roof_susbtrate_damage_o
+  foundation_failure_o
+  wall_structure_damage_o
+  wall_substrate_damage_o
+  wall_cladding_damage_o
+  wall_cladding_damage_level_u
+   stories_with_damage_o
+   stories_with_damage_u
+  soffit_damage_per_o
+  fascia_damage_per_o
+  per_building_footprint_eroded_o
+  per_building_footprint_eroded_u
+  damage_understory_per_o
+  piles_damage_o
+  foundation_damage_cause_o
+  oop_failure_n
+  oop_failure_s
+  oop_failure_e
+  oop_failure_w
+  ip_failure_n
+  ip_failure_s
+  ip_failure_e
+  ip_failure_w
+  building_open
+  building_enclosed
+  building_regular_shape
+  exposure_category
+  building_rigid
+  national_register_listing_year
+  existed_during_tornado
+  buidling_use_before_tornado
+  buidling_use_after_tornado
+  buidling_use_plan_after_tornado
+  demolishing_year
+  single_unit
+  multiple_unit
+  world_heritage_property
+  hague_convention
+  sub_national_heritage _list
+  iucn_protected_area
+  property_of_local_significance
+  const_material_h_stone
+  const_material_h_brick
+  const_material_h_wood
+  const_material_h_mud
+  const_material_h_rf_masonry
+  const_material_h_rglr_stone
+  const_material_h_rf_conc
+  const_material_h_ir_stone
+  const_material_h_othr
+  const_material_v_stone
+  const_material_v_brick
+  const_material_v_wood
+  const_material_v_mud
+  const_material_v_rf_masonry
+  const_material_v_rglr_stone
+  const_material_v_rf_conc
+  const_material_v_ir_stone
+  const_material_v_othr
+  prop_agricultural 
+  prop_cave
+  prop_culture _entertainment_facility
+  prop_forest
+  prop_industrial_facility
+  prop_lake
+  prop_military
+  prop_nature
+  prop_religious
+  prop_rock formation
+  prop_sports_facility
+  prop_unilities_facility
+  prop_archaeological
+  prop_commemorative structure or landmark
+  prop_ecosystem
+  prop_habitat
+  prop_infrastructure
+  prop_law / government facility
+  prop_mine
+  prop_park / garden
+  prop_residential facility
+  prop_scenic area
+  prop_transportation facility
+  prop_volcano
+  prop_battlefield
+  prop_commercial / exchange facility
+  prop_educational facility
+  prop_health / welfare facility
+  prop_island(s)
+  prop_marine zone
+  prop_mountain
+  prop_parking / storage facility
+  prop_river catchment system
+  prop_sea
+  prop_underground facility
+  prop_zoological park
+  prop_val_evidential
+  prop_val_historical
+  prop_val_aesthetic
+  prop_val_communal
+  owner_individual
+  owner_business
+  owner_government
+  owner_ngo
+  owner_religious 
+  owner_unknown
+  buidling_existed_5_yrs_before_tornado
+  buidling_existed_3_yrs_before_tornado
+  buidling_existed_1_yrs_before_tornado
+  building_existed_during_tornado
+  building_in_use_during_tornado
+  building_use_during_tornado
+  damage_status
+  building_demolished_1_yrs_after_tornado
+  building_demolished_3_yrs_after_tornado
+  building_demolished_5_yrs_after_tornado
+  notes
+  Unnamed: 318
+  Unnamed: 319
+  Unnamed: 320
+  Unnamed: 321
+  Unnamed: 322
+  Unnamed: 323
+  Unnamed: 324
+  Unnamed: 325
+  Unnamed: 326
+  Unnamed: 327
+  Unnamed: 328
+  Unnamed: 329
+  Unnamed: 330
+  Unnamed: 331
+  Unnamed: 332
+  Unnamed: 333
+  Unnamed: 334
+  Unnamed: 335
+  Unnamed: 336
+  Unnamed: 337
+  Unnamed: 338
+  Unnamed: 339
+  Unnamed: 340
+  Unnamed: 341
+  Unnamed: 342
+  Unnamed: 343
+  Unnamed: 344
+  Unnamed: 345
+  Unnamed: 346
+  Unnamed: 347
+  Unnamed: 348
+  Unnamed: 349
+  Unnamed: 350
+  Unnamed: 351
+  Unnamed: 352
+  Unnamed: 353
+  Unnamed: 354
+  Unnamed: 355
+  Unnamed: 356
+  Unnamed: 357
+  Unnamed: 358
+  Unnamed: 359
+  Unnamed: 360
+  Unnamed: 361
+  Unnamed: 362
+  Unnamed: 363
+  Unnamed: 364
+  Unnamed: 365
+  Unnamed: 366
+  Unnamed: 367
+  Unnamed: 368
+  Unnamed: 369
+  Unnamed: 370
+  Unnamed: 371
+  Unnamed: 372
+  Unnamed: 373
+  Unnamed: 374
+  Unnamed: 375
+  Unnamed: 376
+  Unnamed: 377
+  Unnamed: 378
+  Unnamed: 379
+  Unnamed: 380
+  Unnamed: 381
+  Unnamed: 382
+  Unnamed: 383
+  Unnamed: 384
+  Unnamed: 385
+  Unnamed: 386
+  Unnamed: 387
+  Unnamed: 388
+  Unnamed: 389
+  Unnamed: 390
+  Unnamed: 391
+  Unnamed: 392
+  Unnamed: 393
+  Unnamed: 394
+  Unnamed: 395
+  Unnamed: 396
+  Unnamed: 397
+  Unnamed: 398
+  Unnamed: 399
+  Unnamed: 400
+  Unnamed: 401
+  Unnamed: 402
+  Unnamed: 403
+  Unnamed: 404
+  Unnamed: 405
+  Unnamed: 406
+  Unnamed: 407
+  Unnamed: 408
+  Unnamed: 409
+  Unnamed: 410
+  Unnamed: 411
+  Unnamed: 412
+  Unnamed: 413
+  Unnamed: 414
+  Unnamed: 415
+  Unnamed: 416
+  Unnamed: 417
+  Unnamed: 418
+  Unnamed: 419
+  Unnamed: 420
+  Unnamed: 421
+  Unnamed: 422
+  Unnamed: 423
+  Unnamed: 424
+  Unnamed: 425
+  Unnamed: 426
+  Unnamed: 427
+  Unnamed: 428
+  Unnamed: 429
+  Unnamed: 430
+  Unnamed: 431
+  Unnamed: 432
+  Unnamed: 433
+  Unnamed: 434
+  Unnamed: 435
+  Unnamed: 436
+  Unnamed: 437
+  Unnamed: 438
+  Unnamed: 439
+  Unnamed: 440
+  Unnamed: 441
+  Unnamed: 442
+  Unnamed: 443
+  Unnamed: 444
+  Unnamed: 445
+  Unnamed: 446
+  Unnamed: 447
+  Unnamed: 448
+  Unnamed: 449
+  Unnamed: 450
+  Unnamed: 451
+  Unnamed: 452
+  Unnamed: 453
+  Unnamed: 454
+  Unnamed: 455
+  Unnamed: 456
+  Unnamed: 457
+  Unnamed: 458
+  Unnamed: 459
+  Unnamed: 460
+  Unnamed: 461
+  Unnamed: 462
+  Unnamed: 463
+  Unnamed: 464
+  Unnamed: 465
+  Unnamed: 466
+  Unnamed: 467
+  Unnamed: 468
+  Unnamed: 469
+  Unnamed: 470
+  Unnamed: 471
+  Unnamed: 472
+  Unnamed: 473
+  Unnamed: 474
+  Unnamed: 475
+  Unnamed: 476
+  Unnamed: 477
+  Unnamed: 478
+  Unnamed: 479
+  Unnamed: 480
+  Unnamed: 481
+  Unnamed: 482
+  Unnamed: 483
+  Unnamed: 484
+  Unnamed: 485
+  Unnamed: 486
+  Unnamed: 487
+  Unnamed: 488
+  Unnamed: 489
+  Unnamed: 490
+  Unnamed: 491
+  Unnamed: 492
+  Unnamed: 493
+  Unnamed: 494
+  Unnamed: 495
+  Unnamed: 496
+  Unnamed: 497
+  Unnamed: 498
+  Unnamed: 499
+  Unnamed: 500
+  Unnamed: 501
+  Unnamed: 502
+  Unnamed: 503
+  Unnamed: 504
+  Unnamed: 505
+  Unnamed: 506
+  Unnamed: 507
+  Unnamed: 508
+  Unnamed: 509
+  Unnamed: 510
+  Unnamed: 511
+  Unnamed: 512
+  Unnamed: 513
+  Unnamed: 514
+  Unnamed: 515
+  Unnamed: 516
+  Unnamed: 517
+  Unnamed: 518
+  Unnamed: 519
+  Unnamed: 520
+  Unnamed: 521
+  Unnamed: 522
+  Unnamed: 523
+  Unnamed: 524
+  Unnamed: 525
+  Unnamed: 526
+  Unnamed: 527
+  Unnamed: 528
+  Unnamed: 529
+  Unnamed: 530
+  Unnamed: 531
+  Unnamed: 532
+  Unnamed: 533
+  Unnamed: 534
+  Unnamed: 535
+  Unnamed: 536
+  Unnamed: 537
+  Unnamed: 538
+  Unnamed: 539
+  Unnamed: 540
+  Unnamed: 541
+  Unnamed: 542
+  Unnamed: 543
+  Unnamed: 544
+  Unnamed: 545
+  Unnamed: 546
+  Unnamed: 547
+  Unnamed: 548
+  Unnamed: 549
+  Unnamed: 550
+  Unnamed: 551
+  Unnamed: 552
+  Unnamed: 553
+  Unnamed: 554
+  Unnamed: 555
+  Unnamed: 556
+  Unnamed: 557
+  Unnamed: 558
+  Unnamed: 559
+  Unnamed: 560
+  Unnamed: 561
+  Unnamed: 562
+  Unnamed: 563
+  Unnamed: 564
+  Unnamed: 565
+  Unnamed: 566
+  Unnamed: 567
+  Unnamed: 568
+  Unnamed: 569
+  Unnamed: 570
+  Unnamed: 571
+  Unnamed: 572
+  Unnamed: 573
+  Unnamed: 574
+  Unnamed: 575
+  Unnamed: 576
+  Unnamed: 577
+  Unnamed: 578
+  Unnamed: 579
+  Unnamed: 580
+  Unnamed: 581
+  Unnamed: 582
+  Unnamed: 583
+  Unnamed: 584
+  Unnamed: 585
+  Unnamed: 586
+  Unnamed: 587
+  Unnamed: 588
+  Unnamed: 589
+  Unnamed: 590
+  Unnamed: 591
+  Unnamed: 592
+  Unnamed: 593
+  Unnamed: 594
+  Unnamed: 595
+  Unnamed: 596
+  Unnamed: 597
+  Unnamed: 598
+  Unnamed: 599
+  Unnamed: 600
+  Unnamed: 601
+  Unnamed: 602
+  Unnamed: 603
+  Unnamed: 604
+  Unnamed: 605
+  Unnamed: 606
+  Unnamed: 607
+  Unnamed: 608
+  Unnamed: 609
+  Unnamed: 610
+  Unnamed: 611
+  Unnamed: 612
+  Unnamed: 613
+  Unnamed: 614
+  Unnamed: 615
+  Unnamed: 616
+  Unnamed: 617
+  Unnamed: 618
+  Unnamed: 619
+  Unnamed: 620
+  Unnamed: 621
+  Unnamed: 622
+  Unnamed: 623
+  Unnamed: 624
+  Unnamed: 625
+  Unnamed: 626
+  Unnamed: 627
+  Unnamed: 628
+  Unnamed: 629
+  Unnamed: 630
+  Unnamed: 631
+  Unnamed: 632
+  Unnamed: 633
+  Unnamed: 634
+  Unnamed: 635
+  Unnamed: 636
+  Unnamed: 637
+  Unnamed: 638
+  Unnamed: 639
+  Unnamed: 640
+  Unnamed: 641
+  Unnamed: 642
+  Unnamed: 643
+  Unnamed: 644
+  Unnamed: 645
+  Unnamed: 646
+  Unnamed: 647
+  Unnamed: 648
+  Unnamed: 649
+  Unnamed: 650
+  Unnamed: 651
+  Unnamed: 652
+  Unnamed: 653
+  Unnamed: 654
+  Unnamed: 655
+  Unnamed: 656
+  Unnamed: 657
+  Unnamed: 658
+  Unnamed: 659
+  Unnamed: 660
+  Unnamed: 661
+  Unnamed: 662
+  Unnamed: 663
+  Unnamed: 664
+  Unnamed: 665
+  Unnamed: 666
+  Unnamed: 667
+  Unnamed: 668
+  Unnamed: 669
+  Unnamed: 670
+  Unnamed: 671
+  Unnamed: 672
+  Unnamed: 673
+  Unnamed: 674
+  Unnamed: 675
+  Unnamed: 676
+  Unnamed: 677
+  Unnamed: 678
+  Unnamed: 679
+  Unnamed: 680
+  Unnamed: 681
+  Unnamed: 682
+  Unnamed: 683
+  Unnamed: 684
+  Unnamed: 685
+  Unnamed: 686
+  Unnamed: 687
+  Unnamed: 688
+  Unnamed: 689
+  Unnamed: 690
+  Unnamed: 691
+  Unnamed: 692
+  Unnamed: 693
+  Unnamed: 694
+  Unnamed: 695
+  Unnamed: 696
+  Unnamed: 697
+  Unnamed: 698
+  Unnamed: 699
+  Unnamed: 700
+  Unnamed: 701
+  Unnamed: 702
+  Unnamed: 703
+  Unnamed: 704
+  Unnamed: 705
+  Unnamed: 706
+  Unnamed: 707
+  Unnamed: 708
+  Unnamed: 709
+  Unnamed: 710
+  Unnamed: 711
+  Unnamed: 712
+
+First row:
+{'NRHP_ref_number': 2001674, 'town': 'Lepanto', 'tornado_EF': 'subEF', 'tornado_start_lat': 35.67, 'tornado_end_lat': 35.69, 'tornado_start_long': -90.53, 'tornado_end_long': -90.47, 'latitude': 35.612075, 'longitude': -90.33148333, 'complete_address': '205 Alexander Ave Lepanto AR 72354 US', 'building_name_listing': 'Willie Lamb Post No. 26 American Legion Hut', 'building_name_current': nan, 'archetype': 13, 'located_in_historic_district': 'no', 'occupany_u': 'assembly', 'number_stories': 1.0, 'year_built_u': 1937, 'building_area_m2': 376, 'building_urban_setting': 'isolated', 'building_position_on_street': 'recessed', 'buidling_height_m': 5.0, 'first_floor_elevation_m': 3.5, 'front_elevation_orientation': 'w', 'wall_length_side': 16, 'wall_length_front': 20.0, 'wall_thickness': 0.2, 'roof_shape_u': 'gable', 'roof_slope_u': 30, 'construction_type_u': 'masonry_un', 'construction_type_u_unc': 2, 'mwfrs_u_wall': 'wall_diaphragm_wood', 'mwfrs_u_wall_unc': 3, 'mwfrs_u_roof': 'roof_diaphragm_wood', 'mwfrs_u_roof_unc': 3, 'mwfrs_u_moment_frame': 'no', 'mwfrs_u_moment_frame_unc': 3, 'masonry_leaves': 'un', 'masonry_leaves_unc': 1, 'structural_wall_system_u': 'masonry_block_unreinforced', 'foundation_type_u': 'masonry_un', 'foundation_type_u_unc': 2, 'wall_anchorage_type_u': 'un', 'wall_anchorage_type_u_unc': 1, 'wall_substrate_u': 'wooden_un', 'wall_substrate_u_unc': 2, 'wall_cladding_u': 'vinyl', 'wall_cladding_u_unc': 3, 'soffit_type_u': 'vinyl', 'soffit_present_u': 'yes', 'wall_fenesteration_per_front': 35, 'wall_fenesteration_per_back': 20, 'wall_fenesteration_per_right': 10, 'wall_fenesteration_per_left': 10, 'wall_fenestration_per_n': 10, 'wall_fenestration_per_s': 10, 'wall_fenestration_per_e': 20, 'wall_fenestration_per_w': 35, 'wall_fenesteration_protection_front': 'no', 'wall_fenesteration_protection_front_unc': nan, 'wall_fenesteration_protection_back': 'no', 'wall_fenesteration_protection_back_unc': nan, 'wall_fenesteration_protection_right': 'no', 'wall_fenesteration_protection_left': 'no', 'fenestration_protection_type_front': 'not_applicable', 'fenestration_protection_type_back': 'not_applicable', 'fenestration_protection_type_right': 'not_applicable', 'fenestration_protection_type_left': 'not_applicable', 'large_door_present_front': 'no', 'large_door_present_back': 'no', 'large_door_present_right': 'no', 'large_door_present_left': 'no', 'door_present_n': 'no', 'door_present_s': 'no', 'door_present_e': 'no', 'door_present_w': 'no', 'roof_system_u': 'wooden_un', 'roof_system_u_unc': 1, 'r2wall_attachment_u': 'un', 'roof_substrate_type_u': 'dimensional_lumber', 'roof_substrate_type_u_unc': 2, 'roof_cover_u': 'asphalt', 'roof_cover_u_unc': 3, 'overhang_length_u': 0.4, 'parapet_height_m': 0.0, 'retrofit_year_u': nan, 'retrofit_present_u': 'no', 'retrofit_type_u': nan, 'retrofit_type_unc_u': nan, 'hazards_present_u': 'wind', 'status_u': 'undamaged', 'wind_damage_rating_u': 0, 'damage_indicator_u': 0, 'degree_of_damage_u': 0, 'wind_damage_details_u': nan, 'roof_structure_damage_u': 0, 'roof_structure_damage_u_per': 0, 'roof_substrate_damage_u': 0, 'roof_substrate_damage_per': 0, 'foundation_failure_u': 0, 'foundation_failure_per_u': 0, 'wall_structure_damage_per_front': 0, 'wall_structure_damage_per_back': 0, 'wall_structure_damage_per_left': 0, 'wall_structure_damage_per_right': 0, 'wall_structure_damage_u': 0, 'wall_structure_damage_n': 0, 'wall_structure_damage_s': 0, 'wall_structure_damage_e': 0, 'wall_structure_damage_w': 0, 'wall_substrate_damage_per_front': 0, 'wall_substrate_damage_per_back': 0, 'wall_substrate_damage_per_right': 0, 'wall_substrate_damage_per_left': 0, 'wall_substrate_damage_n': 0, 'wall_substrate_damage_s': 0, 'wall_substrate_damage_e': 0, 'wall_substrate_damage_w': 0, 'wall_substrate_damage_u': 0, 'wall_cladding_damage_per_front': 0, 'wall_cladding_damage_per_back': 0, 'wall_cladding_damage_per_right': 0, 'wall_cladding_damage_per_left': 0, 'wall_cladding_damage_n': 0, 'wall_cladding_damage_s': 0, 'wall_cladding_damage_e': 0, 'wall_cladding_damage_w': 0, 'damaged_fenesteration_per_front': 0, 'damaged_fenesteration_per_back': 0, 'damaged_fenesteration_per_right': 0, 'damaged_fenesteration_per_left': 0, 'wall_fenestration_damage_per_n': 0, 'wall_fenestration_damage_per_s': 0, 'wall_fenestration_damage_per_e': 0, 'wall_fenestration_damage_per_w': 0, 'soffit_damage_per_u': 0, 'fascia_damage_per_u': 0, 'piles_damage_u': 'not_applicable', 'foundation_damage_cause_u': 'not_applicable', 'foundation_damage_u': 0, 'foundation_damage_u_per': 0, 'risk_category_16': 2, 'building_low_rise': 'yes', 'overall_photos_front': nan, 'overall_photos_back': nan, 'overall_photos_left': nan, 'overall_photos_right': nan, 'detailed_photos_front': nan, 'detailed_photos_back': nan, 'detailed_photos_left': nan, 'detailed_photos_right': nan, 'elevations_assessed_front_o': nan, 'elevations_assessed_back_o': nan, 'elevations_assessed_left_o': nan, 'elevations_assessed_right_o': nan, 'address_suite': nan, 'address_locality': nan, 'address_postal_code': nan, 'address_country': nan, 'occupancy_o': nan, 'year_built_o': nan, 'understory_pct_of_building_footprint': nan, 'roof_shape_o': nan, 'roof_slope_o': nan, 'construction_type_o': nan, 'mwfrs_o': nan, 'structural_wall_system_o': nan, 'foundation_type_o': nan, 'wall_anchorage_type_o': nan, 'wall_substrate_o': nan, 'wall_cladding_o': nan, 'soffit_type_o': nan, 'wall_fenesteration_protection_right_unc': nan, 'wall_fenesteration_protection_left_unc': nan, 'fenestration_protection_type_unc': nan, 'fenesteration_ratio_o': nan, 'large_door_opening_type_': nan, 'opening_type': nan, 'roof_system_o': nan, 'r2wall_attachment_o': nan, 'r2wall_attachment_type_unc': nan, 'roof_substrate_type_o': nan, 'roof_cover_o': nan, 'overhang_length_o': nan, 'secondary_water_barrier_o': nan, 'secondary_water_barrier_u': nan, 'retrofit_type_1_o': nan, 'retrofit_type_1_u': nan, 'retrofit_type_2_o': nan, 'reotrofit_2_u': nan, 'retrofit_year_o': nan, 'hazards_present_o': nan, 'status_o': nan, 'wind_damage_rating_o': nan, 'overall_damage_notes_o': nan, 'surge_damage_rating_o': nan, 'surge_damage_rating_u': 1, 'rainwater_ingress_damage_rating_o': nan, 'rainwater_ingress_damage_rating_u': nan, 'damage_indicator_o': nan, 'degree_of_damage_o': nan, 'wind_damage_details_o': nan, 'roof_structure_damage_o': nan, 'roof_susbtrate_damage_o': nan, 'foundation_failure_o': nan, 'wall_structure_damage_o': nan, 'wall_substrate_damage_o': nan, 'wall_cladding_damage_o': nan, 'wall_cladding_damage_level_u': nan, ' stories_with_damage_o': nan, ' stories_with_damage_u': nan, 'soffit_damage_per_o': nan, 'fascia_damage_per_o': nan, 'per_building_footprint_eroded_o': nan, 'per_building_footprint_eroded_u': nan, 'damage_understory_per_o': nan, 'piles_damage_o': nan, 'foundation_damage_cause_o': nan, 'oop_failure_n': nan, 'oop_failure_s': nan, 'oop_failure_e': nan, 'oop_failure_w': nan, 'ip_failure_n': nan, 'ip_failure_s': nan, 'ip_failure_e': nan, 'ip_failure_w': nan, 'building_open': nan, 'building_enclosed': nan, 'building_regular_shape': nan, 'exposure_category': nan, 'building_rigid': nan, 'national_register_listing_year': 2003, 'existed_during_tornado': 'yes', 'buidling_use_before_tornado': 'assembly', 'buidling_use_after_tornado': 'assembly', 'buidling_use_plan_after_tornado': 'assembly', 'demolishing_year': 'not_applicable', 'single_unit': 'yes', 'multiple_unit': 'no', 'world_heritage_property': 'no', 'hague_convention': 'no', 'sub_national_heritage _list': 'no', 'iucn_protected_area': 'no', 'property_of_local_significance': 'yes', 'const_material_h_stone': 'no', 'const_material_h_brick': 'no', 'const_material_h_wood': 'yes', 'const_material_h_mud': 'no', 'const_material_h_rf_masonry': 'no', 'const_material_h_rglr_stone': 'no', 'const_material_h_rf_conc': 'yes', 'const_material_h_ir_stone': 'no', 'const_material_h_othr': 'no', 'const_material_v_stone': 'no', 'const_material_v_brick': 'yes', 'const_material_v_wood': 'yes', 'const_material_v_mud': 'no', 'const_material_v_rf_masonry': 'yes', 'const_material_v_rglr_stone': 'no', 'const_material_v_rf_conc': 'no', 'const_material_v_ir_stone': 'no', 'const_material_v_othr': 'no', 'prop_agricultural ': 'no', 'prop_cave': 'no', 'prop_culture _entertainment_facility': 'yes', 'prop_forest': 'no', 'prop_industrial_facility': 'no', 'prop_lake': 'no', 'prop_military': 'no', 'prop_nature': 'no', 'prop_religious': 'no', 'prop_rock formation': 'no', 'prop_sports_facility': 'no', 'prop_unilities_facility': 'no', 'prop_archaeological': 'no', 'prop_commemorative structure or landmark': 'no', 'prop_ecosystem': 'no', 'prop_habitat': 'no', 'prop_infrastructure': 'no', 'prop_law / government facility': 'no', 'prop_mine': 'no', 'prop_park / garden': 'no', 'prop_residential facility': 'no', 'prop_scenic area': 'no', 'prop_transportation facility': 'no', 'prop_volcano': 'no', 'prop_battlefield': 'no', 'prop_commercial / exchange facility': 'no', 'prop_educational facility': 'no', 'prop_health / welfare facility': 'no', 'prop_island(s)': 'no', 'prop_marine zone': 'no', 'prop_mountain': 'no', 'prop_parking / storage facility': 'no', 'prop_river catchment system': 'no', 'prop_sea': 'no', 'prop_underground facility': 'no', 'prop_zoological park': 'no', 'prop_val_evidential': 'some', 'prop_val_historical': 'limited', 'prop_val_aesthetic': 'some', 'prop_val_communal': 'considerable', 'owner_individual': 'no', 'owner_business': 'no', 'owner_government': 'no', 'owner_ngo': 'yes', 'owner_religious ': 'no', 'owner_unknown': 'no', 'buidling_existed_5_yrs_before_tornado': 'yes', 'buidling_existed_3_yrs_before_tornado': 'yes', 'buidling_existed_1_yrs_before_tornado': 'yes', 'building_existed_during_tornado': 'yes', 'building_in_use_during_tornado': 'yes', 'building_use_during_tornado': 'assembly', 'damage_status': 'undamaged', 'building_demolished_1_yrs_after_tornado': 'no', 'building_demolished_3_yrs_after_tornado': 'no', 'building_demolished_5_yrs_after_tornado': 'no', 'notes': nan, 'Unnamed: 318': nan, 'Unnamed: 319': nan, 'Unnamed: 320': nan, 'Unnamed: 321': nan, 'Unnamed: 322': nan, 'Unnamed: 323': nan, 'Unnamed: 324': nan, 'Unnamed: 325': nan, 'Unnamed: 326': nan, 'Unnamed: 327': nan, 'Unnamed: 328': nan, 'Unnamed: 329': nan, 'Unnamed: 330': nan, 'Unnamed: 331': nan, 'Unnamed: 332': nan, 'Unnamed: 333': nan, 'Unnamed: 334': nan, 'Unnamed: 335': nan, 'Unnamed: 336': nan, 'Unnamed: 337': nan, 'Unnamed: 338': nan, 'Unnamed: 339': nan, 'Unnamed: 340': nan, 'Unnamed: 341': nan, 'Unnamed: 342': nan, 'Unnamed: 343': nan, 'Unnamed: 344': nan, 'Unnamed: 345': nan, 'Unnamed: 346': nan, 'Unnamed: 347': nan, 'Unnamed: 348': nan, 'Unnamed: 349': nan, 'Unnamed: 350': nan, 'Unnamed: 351': nan, 'Unnamed: 352': nan, 'Unnamed: 353': nan, 'Unnamed: 354': nan, 'Unnamed: 355': nan, 'Unnamed: 356': nan, 'Unnamed: 357': nan, 'Unnamed: 358': nan, 'Unnamed: 359': nan, 'Unnamed: 360': nan, 'Unnamed: 361': nan, 'Unnamed: 362': nan, 'Unnamed: 363': nan, 'Unnamed: 364': nan, 'Unnamed: 365': nan, 'Unnamed: 366': nan, 'Unnamed: 367': nan, 'Unnamed: 368': nan, 'Unnamed: 369': nan, 'Unnamed: 370': nan, 'Unnamed: 371': nan, 'Unnamed: 372': nan, 'Unnamed: 373': nan, 'Unnamed: 374': nan, 'Unnamed: 375': nan, 'Unnamed: 376': nan, 'Unnamed: 377': nan, 'Unnamed: 378': nan, 'Unnamed: 379': nan, 'Unnamed: 380': nan, 'Unnamed: 381': nan, 'Unnamed: 382': nan, 'Unnamed: 383': nan, 'Unnamed: 384': nan, 'Unnamed: 385': nan, 'Unnamed: 386': nan, 'Unnamed: 387': nan, 'Unnamed: 388': nan, 'Unnamed: 389': nan, 'Unnamed: 390': nan, 'Unnamed: 391': nan, 'Unnamed: 392': nan, 'Unnamed: 393': nan, 'Unnamed: 394': nan, 'Unnamed: 395': nan, 'Unnamed: 396': nan, 'Unnamed: 397': nan, 'Unnamed: 398': nan, 'Unnamed: 399': nan, 'Unnamed: 400': nan, 'Unnamed: 401': nan, 'Unnamed: 402': nan, 'Unnamed: 403': nan, 'Unnamed: 404': nan, 'Unnamed: 405': nan, 'Unnamed: 406': nan, 'Unnamed: 407': nan, 'Unnamed: 408': nan, 'Unnamed: 409': nan, 'Unnamed: 410': nan, 'Unnamed: 411': nan, 'Unnamed: 412': nan, 'Unnamed: 413': nan, 'Unnamed: 414': nan, 'Unnamed: 415': nan, 'Unnamed: 416': nan, 'Unnamed: 417': nan, 'Unnamed: 418': nan, 'Unnamed: 419': nan, 'Unnamed: 420': nan, 'Unnamed: 421': nan, 'Unnamed: 422': nan, 'Unnamed: 423': nan, 'Unnamed: 424': nan, 'Unnamed: 425': nan, 'Unnamed: 426': nan, 'Unnamed: 427': nan, 'Unnamed: 428': nan, 'Unnamed: 429': nan, 'Unnamed: 430': nan, 'Unnamed: 431': nan, 'Unnamed: 432': nan, 'Unnamed: 433': nan, 'Unnamed: 434': nan, 'Unnamed: 435': nan, 'Unnamed: 436': nan, 'Unnamed: 437': nan, 'Unnamed: 438': nan, 'Unnamed: 439': nan, 'Unnamed: 440': nan, 'Unnamed: 441': nan, 'Unnamed: 442': nan, 'Unnamed: 443': nan, 'Unnamed: 444': nan, 'Unnamed: 445': nan, 'Unnamed: 446': nan, 'Unnamed: 447': nan, 'Unnamed: 448': nan, 'Unnamed: 449': nan, 'Unnamed: 450': nan, 'Unnamed: 451': nan, 'Unnamed: 452': nan, 'Unnamed: 453': nan, 'Unnamed: 454': nan, 'Unnamed: 455': nan, 'Unnamed: 456': nan, 'Unnamed: 457': nan, 'Unnamed: 458': nan, 'Unnamed: 459': nan, 'Unnamed: 460': nan, 'Unnamed: 461': nan, 'Unnamed: 462': nan, 'Unnamed: 463': nan, 'Unnamed: 464': nan, 'Unnamed: 465': nan, 'Unnamed: 466': nan, 'Unnamed: 467': nan, 'Unnamed: 468': nan, 'Unnamed: 469': nan, 'Unnamed: 470': nan, 'Unnamed: 471': nan, 'Unnamed: 472': nan, 'Unnamed: 473': nan, 'Unnamed: 474': nan, 'Unnamed: 475': nan, 'Unnamed: 476': nan, 'Unnamed: 477': nan, 'Unnamed: 478': nan, 'Unnamed: 479': nan, 'Unnamed: 480': nan, 'Unnamed: 481': nan, 'Unnamed: 482': nan, 'Unnamed: 483': nan, 'Unnamed: 484': nan, 'Unnamed: 485': nan, 'Unnamed: 486': nan, 'Unnamed: 487': nan, 'Unnamed: 488': nan, 'Unnamed: 489': nan, 'Unnamed: 490': nan, 'Unnamed: 491': nan, 'Unnamed: 492': nan, 'Unnamed: 493': nan, 'Unnamed: 494': nan, 'Unnamed: 495': nan, 'Unnamed: 496': nan, 'Unnamed: 497': nan, 'Unnamed: 498': nan, 'Unnamed: 499': nan, 'Unnamed: 500': nan, 'Unnamed: 501': nan, 'Unnamed: 502': nan, 'Unnamed: 503': nan, 'Unnamed: 504': nan, 'Unnamed: 505': nan, 'Unnamed: 506': nan, 'Unnamed: 507': nan, 'Unnamed: 508': nan, 'Unnamed: 509': nan, 'Unnamed: 510': nan, 'Unnamed: 511': nan, 'Unnamed: 512': nan, 'Unnamed: 513': nan, 'Unnamed: 514': nan, 'Unnamed: 515': nan, 'Unnamed: 516': nan, 'Unnamed: 517': nan, 'Unnamed: 518': nan, 'Unnamed: 519': nan, 'Unnamed: 520': nan, 'Unnamed: 521': nan, 'Unnamed: 522': nan, 'Unnamed: 523': nan, 'Unnamed: 524': nan, 'Unnamed: 525': nan, 'Unnamed: 526': nan, 'Unnamed: 527': nan, 'Unnamed: 528': nan, 'Unnamed: 529': nan, 'Unnamed: 530': nan, 'Unnamed: 531': nan, 'Unnamed: 532': nan, 'Unnamed: 533': nan, 'Unnamed: 534': nan, 'Unnamed: 535': nan, 'Unnamed: 536': nan, 'Unnamed: 537': nan, 'Unnamed: 538': nan, 'Unnamed: 539': nan, 'Unnamed: 540': nan, 'Unnamed: 541': nan, 'Unnamed: 542': nan, 'Unnamed: 543': nan, 'Unnamed: 544': nan, 'Unnamed: 545': nan, 'Unnamed: 546': nan, 'Unnamed: 547': nan, 'Unnamed: 548': nan, 'Unnamed: 549': nan, 'Unnamed: 550': nan, 'Unnamed: 551': nan, 'Unnamed: 552': nan, 'Unnamed: 553': nan, 'Unnamed: 554': nan, 'Unnamed: 555': nan, 'Unnamed: 556': nan, 'Unnamed: 557': nan, 'Unnamed: 558': nan, 'Unnamed: 559': nan, 'Unnamed: 560': nan, 'Unnamed: 561': nan, 'Unnamed: 562': nan, 'Unnamed: 563': nan, 'Unnamed: 564': nan, 'Unnamed: 565': nan, 'Unnamed: 566': nan, 'Unnamed: 567': nan, 'Unnamed: 568': nan, 'Unnamed: 569': nan, 'Unnamed: 570': nan, 'Unnamed: 571': nan, 'Unnamed: 572': nan, 'Unnamed: 573': nan, 'Unnamed: 574': nan, 'Unnamed: 575': nan, 'Unnamed: 576': nan, 'Unnamed: 577': nan, 'Unnamed: 578': nan, 'Unnamed: 579': nan, 'Unnamed: 580': nan, 'Unnamed: 581': nan, 'Unnamed: 582': nan, 'Unnamed: 583': nan, 'Unnamed: 584': nan, 'Unnamed: 585': nan, 'Unnamed: 586': nan, 'Unnamed: 587': nan, 'Unnamed: 588': nan, 'Unnamed: 589': nan, 'Unnamed: 590': nan, 'Unnamed: 591': nan, 'Unnamed: 592': nan, 'Unnamed: 593': nan, 'Unnamed: 594': nan, 'Unnamed: 595': nan, 'Unnamed: 596': nan, 'Unnamed: 597': nan, 'Unnamed: 598': nan, 'Unnamed: 599': nan, 'Unnamed: 600': nan, 'Unnamed: 601': nan, 'Unnamed: 602': nan, 'Unnamed: 603': nan, 'Unnamed: 604': nan, 'Unnamed: 605': nan, 'Unnamed: 606': nan, 'Unnamed: 607': nan, 'Unnamed: 608': nan, 'Unnamed: 609': nan, 'Unnamed: 610': nan, 'Unnamed: 611': nan, 'Unnamed: 612': nan, 'Unnamed: 613': nan, 'Unnamed: 614': nan, 'Unnamed: 615': nan, 'Unnamed: 616': nan, 'Unnamed: 617': nan, 'Unnamed: 618': nan, 'Unnamed: 619': nan, 'Unnamed: 620': nan, 'Unnamed: 621': nan, 'Unnamed: 622': nan, 'Unnamed: 623': nan, 'Unnamed: 624': nan, 'Unnamed: 625': nan, 'Unnamed: 626': nan, 'Unnamed: 627': nan, 'Unnamed: 628': nan, 'Unnamed: 629': nan, 'Unnamed: 630': nan, 'Unnamed: 631': nan, 'Unnamed: 632': nan, 'Unnamed: 633': nan, 'Unnamed: 634': nan, 'Unnamed: 635': nan, 'Unnamed: 636': nan, 'Unnamed: 637': nan, 'Unnamed: 638': nan, 'Unnamed: 639': nan, 'Unnamed: 640': nan, 'Unnamed: 641': nan, 'Unnamed: 642': nan, 'Unnamed: 643': nan, 'Unnamed: 644': nan, 'Unnamed: 645': nan, 'Unnamed: 646': nan, 'Unnamed: 647': nan, 'Unnamed: 648': nan, 'Unnamed: 649': nan, 'Unnamed: 650': nan, 'Unnamed: 651': nan, 'Unnamed: 652': nan, 'Unnamed: 653': nan, 'Unnamed: 654': nan, 'Unnamed: 655': nan, 'Unnamed: 656': nan, 'Unnamed: 657': nan, 'Unnamed: 658': nan, 'Unnamed: 659': nan, 'Unnamed: 660': nan, 'Unnamed: 661': nan, 'Unnamed: 662': nan, 'Unnamed: 663': nan, 'Unnamed: 664': nan, 'Unnamed: 665': nan, 'Unnamed: 666': nan, 'Unnamed: 667': nan, 'Unnamed: 668': nan, 'Unnamed: 669': nan, 'Unnamed: 670': nan, 'Unnamed: 671': nan, 'Unnamed: 672': nan, 'Unnamed: 673': nan, 'Unnamed: 674': nan, 'Unnamed: 675': nan, 'Unnamed: 676': nan, 'Unnamed: 677': nan, 'Unnamed: 678': nan, 'Unnamed: 679': nan, 'Unnamed: 680': nan, 'Unnamed: 681': nan, 'Unnamed: 682': nan, 'Unnamed: 683': nan, 'Unnamed: 684': nan, 'Unnamed: 685': nan, 'Unnamed: 686': nan, 'Unnamed: 687': nan, 'Unnamed: 688': nan, 'Unnamed: 689': nan, 'Unnamed: 690': nan, 'Unnamed: 691': nan, 'Unnamed: 692': nan, 'Unnamed: 693': nan, 'Unnamed: 694': nan, 'Unnamed: 695': nan, 'Unnamed: 696': nan, 'Unnamed: 697': nan, 'Unnamed: 698': nan, 'Unnamed: 699': nan, 'Unnamed: 700': nan, 'Unnamed: 701': nan, 'Unnamed: 702': nan, 'Unnamed: 703': nan, 'Unnamed: 704': nan, 'Unnamed: 705': nan, 'Unnamed: 706': nan, 'Unnamed: 707': nan, 'Unnamed: 708': nan, 'Unnamed: 709': nan, 'Unnamed: 710': nan, 'Unnamed: 711': nan, 'Unnamed: 712': nan}
+
+--- QuadState_Tornado_DataInputv2.csv ---
+Error reading: 'utf-8' codec can't decode byte 0xc9 in position 110159: invalid continuation byte
