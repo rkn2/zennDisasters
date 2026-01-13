@@ -1,33 +1,86 @@
-# ZENN
- Zentropy-enhanced neural network
+# ZENN Tornado Damage Analysis
 
-<img width="416" alt="image" src="https://github.com/user-attachments/assets/2d0a4fb6-dfdc-4c33-8b7c-9cbd514b94e1" />
+This repository applies the **ZENN (Zentropy Neural Network)** framework to tornado damage prediction on historic buildings, comparing its performance and feature importance with traditional machine learning models (XGBoost, RandomForest).
 
-Schematic of ZENN and its applications in different areas. Zentropy theory integrates statistical mechanics and quantum mechanics by assigning intrinsic entropy to each system component, thereby capturing internal disparities. By embedding zentropy theory into deep learning as a backward modeling framework, ZENN replaces the internal energy $E^{(k)}$ and $S^{(k)}$ of each configuration with simple neural networks, and integrates information across all configurations through the total free energy F. In this paper, ZENN has been applied in three representative tasks—multi-source data integration, energy landscape reconstruction, and inference of Fe₃Pt alloy properties—demonstrating its potential as a powerful framework that effectively bridges statistical mechanics and machine learning. 
-# Results on image and text classification tasks
-All simulations were performed on a server equipped with eight NVIDIA A100 GPUs. Each code is performed by the corresponding shell script which includes the complete details of hyperparameter and model introduction. The results have been presented using the state-of-art models:
+## Key Results
 
-<img width="807" height="465" alt="截屏2025-11-15 22 59 47" src="https://github.com/user-attachments/assets/8c732b09-0a06-47d6-8a68-ca70a2fe56b3" />
+- **ZENN is statistically equivalent to XGBoost** (Wilcoxon p > 0.05 for all metrics)
+- **ZENN identifies different important features**: prioritizes `wall_substrate_u`, `roof_shape_u`, and `retrofit_present_u`
+- **ZENN is more robust to hazard removal**: smaller accuracy drop when tornado_EF is excluded
 
-<img width="843" height="376" alt="image" src="https://github.com/user-attachments/assets/2d17535c-e9a2-4d63-b380-db9d0be9b4ed" />
+## Repository Structure
 
-Load Google ViT NPZ Weights (https://github.com/xxayt/ViT-for-Cifar100?tab=readme-ov-file)
+```
+zennDisasters/
+├── scripts/           # Python scripts for analysis
+│   ├── zenn_real_model.py       # Core ZENN model adapted for tornado data
+│   ├── zenn_cv.py               # 5-Fold Cross-Validation
+│   ├── zenn_statistical_test.py # Statistical equivalence testing
+│   ├── zenn_feature_importance.py
+│   └── ...
+├── data/              # Preprocessed input data
+│   ├── X_multiscale.csv         # Feature matrix (344 buildings, 34 features)
+│   ├── y_consol.csv             # Target: Consolidated damage scale (0-2)
+│   └── y_full.csv               # Target: Full damage scale (0-5)
+├── outputs/           # Generated results (CSVs, figures)
+│   ├── paper_table*.csv         # Tables for paper
+│   ├── paper_figure*.png        # Figures for paper
+│   ├── zenn_importance_*.csv    # Feature importance rankings
+│   └── confusion_matrix_*.png   # Confusion matrix plots
+├── poc/               # Proof of concept (synthetic data)
+└── original_zenn/     # Original ZENN framework files
+```
 
-ViT_B/32: https://storage.googleapis.com/vit_models/imagenet21k/ViT-B_32.npz
-ViT_L/32:https://storage.googleapis.com/vit_models/imagenet21k/ViT-L_32.npz
-ViT_L/16:https://storage.googleapis.com/vit_models/imagenet21k/ViT-L_16.npz
+## Quick Start
+
+### 1. Run Cross-Validation
+```bash
+cd scripts
+python zenn_cv.py y_consol.csv  # Consolidated scale (0-2)
+python zenn_cv.py y_full.csv    # Full scale (0-5)
+```
+
+### 2. Generate Feature Importance
+```bash
+python zenn_feature_importance.py
+python zenn_hazard_comparison.py  # Hazard-Inclusive vs Hazard-Neutral
+```
+
+### 3. Run Statistical Equivalence Test
+```bash
+python zenn_statistical_test.py
+```
+
+### 4. Generate Paper Tables/Figures
+```bash
+python generate_paper_tables.py
+python generate_paper_figures.py
+```
+
+## Key Files
+
+| File | Description |
+|:---|:---|
+| `scripts/zenn_real_model.py` | Core ZENN model with `CoupledModel` class |
+| `outputs/zenn_statistical_equivalence.csv` | Statistical equivalence test results |
+| `outputs/zenn_importance_hi_aggregated.csv` | Aggregated feature importance (Hazard-Inclusive) |
+| `outputs/paper_table7_feature_overlap.csv` | Feature overlap analysis across models |
+
+## Requirements
+
+```
+torch
+pandas
+numpy
+scikit-learn
+xgboost
+matplotlib
+seaborn
+scipy
+```
 
 ## Citation
-```bibtex
-@misc{Shun Wang  and Shun-Li Shang  and Zi-Kui Liu  and Wenrui Hao,
-title = {ZENN: A thermodynamics-inspired computational framework for heterogeneous data–driven modeling},
-journal = {Proceedings of the National Academy of Sciences},
-volume = {123},
-number = {1},
-pages = {e2511227122},
-year = {2026},
-doi = {10.1073/pnas.2511227122},
-URL = {https://www.pnas.org/doi/abs/10.1073/pnas.2511227122} 
-}
 
-
+If you use this code, please cite:
+- Original ZENN framework: [WilliamMoriaty/ZENN](https://github.com/WilliamMoriaty/ZENN)
+- Tornado vulnerability paper: [Your citation]
