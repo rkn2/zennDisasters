@@ -1,0 +1,13 @@
+Setting,Model,Best Model,p-value,Diff Mean,Equivalent
+Hazard-Neutral,DecisionTree,RandomForest,0.0000,0.0800,No
+Hazard-Neutral,LogisticRegression,RandomForest,0.0074,0.0560,No
+Hazard-Neutral,RidgeClassifier,RandomForest,0.0046,0.0602,No
+Hazard-Neutral,LinearSVC,RandomForest,0.0016,0.0676,No
+Hazard-Neutral,XGBoost,RandomForest,0.4261,0.0063,Yes
+Hazard-Inclusive,DecisionTree,RandomForest,0.0255,0.0422,No
+Hazard-Inclusive,LogisticRegression,RandomForest,0.0255,0.0475,No
+Hazard-Inclusive,RidgeClassifier,RandomForest,0.1908,0.0212,Yes
+Hazard-Inclusive,LinearSVC,RandomForest,0.2872,0.0201,Yes
+Hazard-Inclusive,XGBoost,RandomForest,0.3957,0.0096,Yes
+Hazard-Inclusive,ZENN,XGBoost,0.0679,0.0408,Yes
+Hazard-Neutral,ZENN,XGBoost,0.1250,0.0291,Yes

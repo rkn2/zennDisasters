@@ -1,0 +1,9 @@
+Setting,Category,Count,Features
+Hazard-Inclusive,Shared (All 3),0,-
+Hazard-Inclusive,Unique to RF,3,"wall_substrate_u, parapet_height_m, random_noise"
+Hazard-Inclusive,Unique to XGBoost,3,"number_stories, wall_fenestration_per_s, building_area_m2"
+Hazard-Inclusive,Unique to ZENN,10,"retrofit_present_u_no, roof_shape_u_complex, wall_substrate_u_not_applicable, roof_shape_u_gable, retrofit_present_u_yes, retrofit_present_u_un, wall_substrate_u_wooden_un, wall_thickness, T, wall_substrate_u_masonry"
+Hazard-Neutral,Shared (All 3),0,-
+Hazard-Neutral,Unique to RF,3,"building_position_on_street, wall_length_side, buidling_height_m"
+Hazard-Neutral,Unique to XGBoost,2,"retrofit_present_u, roof_shape_u"
+Hazard-Neutral,Unique to ZENN,7,"retrofit_present_u_no, wall_substrate_u_not_applicable, roof_shape_u_gable, roof_shape_u_hip, wall_length_front, roof_shape_u_complex, wall_substrate_u_masonry"

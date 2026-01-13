@@ -1,0 +1,11 @@
+Rank,RandomForest,XGBoost,ZENN
+1,parapet_height_m,roof_substrate_type_u,wall_substrate_u_not_applicable
+2,roof_substrate_type_u,parapet_height_m,wall_substrate_u_masonry
+3,wall_thickness,year_built_u,roof_shape_u_gable
+4,year_built_u,roof_slope_u,roof_shape_u_hip
+5,wall_length_side,number_stories,wall_thickness
+6,foundation_type_u,retrofit_present_u,roof_slope_u
+7,random_noise,roof_shape_u,retrofit_present_u_no
+8,occupany_u,random_noise,number_stories
+9,building_position_on_street,foundation_type_u,roof_shape_u_complex
+10,buidling_height_m,occupany_u,wall_length_front

@@ -1,0 +1,15 @@
+Setting,Model,Accuracy,Macro F1
+Hazard-Neutral,DecisionTree,0.732 ± 0.049,0.492 ± 0.072
+Hazard-Neutral,RandomForest,0.811 ± 0.037,0.572 ± 0.082
+Hazard-Neutral,LogisticRegression,0.725 ± 0.040,0.516 ± 0.064
+Hazard-Neutral,RidgeClassifier,0.696 ± 0.049,0.512 ± 0.069
+Hazard-Neutral,LinearSVC,0.705 ± 0.051,0.504 ± 0.072
+Hazard-Neutral,XGBoost,0.813 ± 0.045,0.565 ± 0.092
+Hazard-Inclusive,DecisionTree,0.829 ± 0.047,0.608 ± 0.081
+Hazard-Inclusive,RandomForest,0.876 ± 0.024,0.650 ± 0.073
+Hazard-Inclusive,LogisticRegression,0.824 ± 0.038,0.603 ± 0.069
+Hazard-Inclusive,RidgeClassifier,0.813 ± 0.046,0.629 ± 0.069
+Hazard-Inclusive,LinearSVC,0.831 ± 0.036,0.630 ± 0.068
+Hazard-Inclusive,XGBoost,0.878 ± 0.026,0.640 ± 0.072
+Hazard-Inclusive,ZENN,0.831 ± 0.041,0.515 ± 0.065
+Hazard-Neutral,ZENN,0.802 ± 0.035,0.438 ± 0.058

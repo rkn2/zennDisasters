@@ -1,0 +1,11 @@
+Rank,RandomForest,XGBoost,ZENN
+1,ef_numeric,ef_numeric,wall_substrate_u_not_applicable
+2,roof_substrate_type_u,roof_substrate_type_u,wall_substrate_u_masonry
+3,distance_km,number_stories,T
+4,wall_cladding_u,wall_length_side,roof_shape_u_gable
+5,archetype,distance_km,retrofit_present_u_no
+6,wall_length_side,wall_cladding_u,retrofit_present_u_yes
+7,year_built_u,building_area_m2,roof_shape_u_complex
+8,wall_substrate_u,year_built_u,retrofit_present_u_un
+9,random_noise,wall_fenestration_per_s,wall_thickness
+10,parapet_height_m,archetype,wall_substrate_u_wooden_un

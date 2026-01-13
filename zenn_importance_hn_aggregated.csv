@@ -1,0 +1,13 @@
+Feature,Importance
+wall_substrate_u,0.462209302325581
+roof_shape_u,0.44825581395348824
+retrofit_present_u,0.1999999999999998
+wall_thickness,0.0854651162790698
+roof_slope_u,0.0808139534883721
+number_stories,0.077906976744186
+wall_length_front,0.0732558139534883
+wall_fenesteration_per_front,0.0720930232558139
+parapet_height_m,0.0633720930232558
+year_built_u,0.0331395348837209
+wall_length_side,0.0308139534883721
+roof_shape_u_dormer-gambrel_combo,0.002906976744186
